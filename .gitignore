@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# 运行时生成
+assets/aura.png
+assets/aura.ico
+
+# 开发截图（tools/shoot_ui.py 产出，不参与打包）
+assets/settings_*.png
+assets/ui_*.png
+assets/color_picker.png
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
